@@ -1,0 +1,45 @@
+header{
+    background-color: palevioletred;
+    
+    
+}
+.left{
+    background-color: rgba(111, 111, 206, 0.534);
+    
+}
+main{
+    background-color: coral;
+    
+
+}
+.right-side{
+    background-color: yellow;
+    
+}
+.green{
+    background-color: rgb(41, 218, 41);
+}
+
+.parent{
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+
+    .header{
+        padding: 2rem;
+        grid-column: 1 /4;
+    }
+    .left{
+        grid-column: 1/2;
+    }
+    main{
+        grid-column: 2/3;
+
+    }
+    .right-side{
+        grid-column: 3/4;
+
+    }
+    footer{
+        grid-column: 1/4;
+    }
+}

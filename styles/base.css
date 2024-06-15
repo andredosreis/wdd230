@@ -1,29 +1,10 @@
+*{box-sizing: border-box;}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
 
 h1{
-    font-size: 2rem;
-}
-
-nav{
-    background-color: rgba(26, 26, 226, 0.589);
-}
-nav ul{
-    list-style-type: none;
-}
-
-nav a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
-}
-nav a:hover{
-    background-color: rgba(0, 68, 255, 0.2);
-}
-
-nav .active{
-    background-color: rgba(0, 0, 0,0.3)
-}
-image{
-    align-items: center;
+    font-weight: 100;
 }

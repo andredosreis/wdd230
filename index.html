@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
     
     <title>WDD 230</title>
@@ -12,7 +16,8 @@
 <body>
    <header>
     <img src="image/andre.png" alt="andre" width="80" height="100">
-    <span></span>
+    <h2>Andre dos Reis</h2>
+    
    </header>
    <nav>
     <ul>
@@ -25,26 +30,35 @@
 
 
    <main>
-    <h1>Andre dos Reis - WDD 230 - Web Frontend Development</h1>
+    <h1> WDD 230:  Web Frontend Development</h1>
  <hr>
-    <section>
-        <h2>
+ <div class="parent">
+    <section class="section1">
+        <span>
             Learn Activites
-        </h2>
+        </span>
         <ul>
-            <li><a href=""> week 1 </a></li>
-        </ul>
+            <li> Week 01: <a href=""> Layout | Media Query | JS Pen</a></li>
+            <li>Week 02: <a href=""></a></li>
+            <li>Week 03: <a href=""></a></li>
+            <li>Week 04: <a href=""></a></li>
+            <li>Week 05: <a href=""></a></li>
+            <li>Week 06: <a href=""></a></li>
+           
 
     </section>
-    <section>
-        <h2> Information</h2>
+    <section class="section2">
+        <span>Information</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt est, sed culpa modi magnam doloremque facere placeat nam deleniti recusandae rem quam a excepturi quae voluptate incidunt. Nesciunt, in quos?</p>
          
     </section>
+</div>
    </main>
     <footer>
         <span id="copyright"> </span>
-        <h3>&copy; André dos Reis | BYU-Idaho| WDD 230 Spring - 2024 </h3> 
+        <h3>&copy; 🖥️ André dos Reis 🖥️ Portugal 🇵🇹 </h3> 
          <span id="currentDate"></span>
     </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

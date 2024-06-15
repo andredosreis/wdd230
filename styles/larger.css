@@ -1,0 +1,45 @@
+@media only screen and (min-width: 38rem){
+
+    header{
+        background-color: rgba(51, 51, 150, 0.822);
+        display: grid;
+        grid-template-columns:  1fr  1fr 1fr;
+        
+        
+        }
+        header h2{
+            display: flex;
+            grid-column: 3;
+            align-items: center;
+            
+            color: white;
+        }
+        header img{
+            grid-column: 2;
+            margin: 0px 0px 0px 60px
+        }
+        
+    .parent{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+
+    }
+    .parent section{
+        box-shadow: 1px 1px 10px black ;
+    }
+
+    nav ul{
+        display: flex;
+        
+    }
+    nav ul li{
+        flex: 1 1 100%;
+    }
+
+    nav a:hover{
+        background-color: rgba(0, 68, 255, 0.2);
+    }
+
+
+}

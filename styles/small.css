@@ -54,7 +54,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: rgba(0, 68, 255, 0.2);
+    color: yellow;
 }
 
 nav .active{

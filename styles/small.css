@@ -81,7 +81,7 @@ section{
     margin: 1rem 0;
     
 }
- .parent span{
+ .parent h2{
     background-color: blue;
     color: white;
     display: block; /*server para preencher toda a borda*/

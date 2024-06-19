@@ -109,7 +109,7 @@ a img {
   margin: auto;
 }
 
-.social img {
+social img {
   width: 40px;
 }
 
@@ -172,10 +172,6 @@ main section {
   align-items: center;
   margin: auto;
   gap: 10px;
-}
-
-.container {
-  flex-wrap: wrap;
   padding: 10px;
 }
 

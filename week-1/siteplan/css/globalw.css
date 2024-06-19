@@ -109,7 +109,7 @@ a img {
   margin: auto;
 }
 
-social img {
+.social img {
   width: 40px;
 }
 
@@ -194,8 +194,6 @@ figcaption {
 }
 
 .discover div:hover {
-  -moz-box-shadow: 0 0 10px #ccc;
-  -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
   border-radius: 5%;
 }
@@ -238,7 +236,7 @@ footer span {
 }
 
 footer img {
-  margin: center;
+  margin: auto;
   grid-column: 2;
 }
 

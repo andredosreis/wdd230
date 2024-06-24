@@ -10,7 +10,7 @@ h1 {
 }
 
 header {
-    background-color: #333396; /* Cor sólida para melhor contraste */
+    background-color: #333396; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -93,7 +93,7 @@ section {
 }
 
 footer {
-    background-color: #333396; /* Cor sólida para melhor contraste */
+    background-color: #0e0bd0e1; /* Cor sólida para melhor contraste */
     text-align: center;
     color: white; /* Garantir que o texto do footer seja branco para bom contraste */
 }

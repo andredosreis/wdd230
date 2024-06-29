@@ -63,6 +63,47 @@ nav.li ul li {
     margin: 0.5rem 0;
 }
 
+/*humburger section*/
+#myButton{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: top;
+    padding: .25rem 2vw;
+}
+ul.primaryNav li a{
+   
+    display: block;
+    padding: .75rem 2vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+li.contener1 a{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#myButton::before{
+    content: "\2630";
+}
+
+#myButton.open::before{
+    content: "x";
+
+}
+
+ul.primaryNav.open{
+    display: block;
+}
+
+/* serve para desaparecer o menu*/
+ul.primaryNav {
+    display: none;
+    list-style-type: none; /* effects large*/
+}
+
     .footer {
         grid-template-columns: 1fr 1fr;
     }

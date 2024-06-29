@@ -161,17 +161,17 @@ header {
     margin-bottom: 1em;
 }
 
-/*.cta-button {
+.cta-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ff6347; /* Tomate */
-    /*color: white;
+    color: white;
     text-decoration: none;
     font-size: 1em; /* Tamanho do texto reduzido */
-   /* border-radius: 5px;
+    border-radius: 5px;
     transition: background 0.3s ease;
     
-}*/
+}
 
 .cta-button:hover {
     background-color: #e5533d; /* Tomate mais escuro */

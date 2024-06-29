@@ -1,4 +1,7 @@
-document.getElementById('#menu').addEventListener('click', function () {
-    var nav = document.querySelector('nav.li');
-    nav.classList.toggle('active');
+const humburgerElement = document.querySelector('#myButton');
+const navElement = document.querySelector('.primaryNav');
+
+humburgerElement.addEventListener('click', () => {
+    navElement.classList.toggle('open');
+    humburgerElement.classList.toggle('open');
 });

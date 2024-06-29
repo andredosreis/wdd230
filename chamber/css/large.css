@@ -36,21 +36,4 @@
         font-size: 0.8rem;
         padding: 8px 16px;
     }
-        /* Hide the hamburger button for larger screens */
-        #hamburger {
-            display: none;
-        }
-    
-        /* Show the nav for larger screens */
-        nav.li {
-            display: block;
-            position: static;
-            background-color: transparent;
-        }
-    
-        nav.li ul {
-            display: flex;
-            flex-direction: row;
-        }
-    }
-
+}

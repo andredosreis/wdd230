@@ -1,0 +1,83 @@
+
+
+/* Ajustes para telas ainda menores */
+@media only screen and (max-width: 38rem) {
+    
+    .hero {
+        height: 40vh; /* Ajuste de altura para telas menores */
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.8em;
+    }
+
+    .cta-button {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+
+    .principal {
+        display: block;
+    }
+
+    .events, .weather, .call, .call2, .call3 {
+        grid-column: auto;
+        margin: 0.5rem 0;
+    }
+
+/* Show the hamburger button for small screens */
+
+#menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    right: 8rem;
+    z-index: 2;
+}
+
+/* When the nav is active, show it */
+nav.li.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: rgba(26, 26, 226, 0.589);
+    width: 100%;
+    text-align: center;
+}
+
+/* Style the nav items for the mobile menu */
+nav.li ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav.li ul li {
+    margin: 0.5rem 0;
+}
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer img {
+        grid-column: 1 /2;
+        text-align: center;
+    }
+
+    .footer .visit{
+        grid-column: 2;
+        text-align: center;
+
+    }
+
+ 
+    
+}

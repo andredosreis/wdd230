@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Paleta clássica: Azul escuro, branco e dourado. 
+Esta paleta transmite confiança e estabilidade, além de destacar a importância da tradição e da história da região. */
+
+/* header and footer */
+/* azul #14213d; */
+/* footer e nav */
+/* dourado #FFD700 */
+/* nav */
+/* #fff */
+/* letra branca */
+
+:root {
+  --color_header: #14213d;
+  --nav: #fff;
+  --font_titles: 'Lato', sans-serif;
+  --font_words: 'Ubuntu', sans-serif;
+  --holder: red;
+}
+
+h1, h2, h3 {
+  font-family: var(--font_titles);
+}
+/* Global CSS */
+body {
+    font-family: var(--font_words);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+header {
+    background-color: #14213d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+  }
+  
+  header img {
+    filter: invert(1);
+  }
+  
+  #logo img {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  #logo {
+    grid-column: 1;
+    margin: auto;
+    grid-row: 1;
+  }
+  
+  nav {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li a:hover {
+    color: red;
+  }
+  
+  .date {
+    grid-column: 2;
+    color: #e5e5e5;
+    margin: 0.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 0.75rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+  }
+  
+  a img {
+    width: 24px;
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+    grid-column: 3;
+    grid-row: 1;
+    margin: auto;
+  }
+  
+  .social img {
+    width: 40px;
+  }
+nav.li {
+    display: none;
+}
+    /* Hide the hamburger button for larger screens */
+    #menu {
+      display: none;
+  }
+
+  /* Show the nav for larger screens */
+  nav.li {
+      display: block;
+      position: static;
+      background-color: transparent;
+  }
+
+  nav.li ul {
+      display: flex;
+      flex-direction: row;
+  }
+
+
+/* Hero Section */
+.hero {
+    background: url('placa\ leira\ 2024.webp') no-repeat center center/cover;
+    height: 60vh; /* Altura reduzida */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Overlay to darken the hero image */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em; /* Tamanho do texto reduzido */
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1em; /* Tamanho do texto reduzido */
+    margin-bottom: 1em;
+}
+
+/*.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomate */
+    /*color: white;
+    text-decoration: none;
+    font-size: 1em; /* Tamanho do texto reduzido */
+   /* border-radius: 5px;
+    transition: background 0.3s ease;
+    
+}*/
+
+.cta-button:hover {
+    background-color: #e5533d; /* Tomate mais escuro */
+}
+
+
+/*MAIN*/
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+.events{
+    grid-column: 1/3;
+    height: 10rem;
+    border: 1px solid;
+}
+.weather{
+    grid-column: 3/3;
+    border: 1px solid;
+}
+
+.call{
+    border: 1px solid;
+    grid-column: 1/2;
+}
+
+.call2{
+    border: 1px solid;
+    grid-column: 2/2;
+}
+.call3{
+    border: 1px solid;
+    grid-column: 3/3;
+}
+
+  /* FOOTER */
+footer {
+    background-color: var(--color_header);
+    color: var(--nav);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  
+  footer img {
+    filter: invert(1);
+  }
+  
+  footer span {
+    display: flex;
+  }
+  
+  .visit {
+    margin-left: 60px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .cp {
+    grid-column: 2;
+    
+  }
+  
+  footer img {
+    margin: auto;
+    grid-column: 2 / 2;
+  }
+  
+  .info {
+    grid-column: 3;
+  }
+  
+  #last {
+    color: #e5e5e5;
+    margin: 0.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 0.75rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+  }
+  

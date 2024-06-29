@@ -1,5 +1,4 @@
 @media only screen and (min-width: 38rem){
-
     header{
         background-color: #333396;
         display: grid;
@@ -28,7 +27,9 @@
     .parent section{
         box-shadow: 1px 1px 10px black ;
     }
-
+    nav{
+        background-color: #333396;
+    }
     nav ul{
         display: flex;
         
@@ -41,9 +42,21 @@
         background-color: rgba(0, 68, 255, 0.2);
     }
 
-    :hover .section1 li{
+     nav li a:hover  {
         color: #000;
         
+    }
+  
+    /*humburguer section*/
+
+    #myButton{
+        display: none;
+    }
+
+    ul.menulinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+
     }
 
 }

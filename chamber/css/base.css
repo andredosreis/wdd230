@@ -84,7 +84,14 @@ header {
   nav li a:hover {
     color: red;
   }
-  
+  #menu{
+    display: none;
+  }
+
+  .navigation{
+    flex-direction: row;
+  }
+
   .date {
     grid-column: 2;
     color: #e5e5e5;
@@ -186,19 +193,22 @@ header {
     border: 1px solid;
 }
 .weather{
-    grid-column: 3;
+    grid-column: 3/3;
     border: 1px solid;
 }
 
 .call{
     border: 1px solid;
+    grid-column: 1/2;
 }
 
 .call2{
     border: 1px solid;
+    grid-column: 2/2;
 }
 .call3{
     border: 1px solid;
+    grid-column: 3/3;
 }
 
   /* FOOTER */

@@ -40,6 +40,7 @@
         #hamburger {
             display: none;
         }
+        nav{grid-template-rows: 1fr;}
     
         /* Show the nav for larger screens */
         nav.li {

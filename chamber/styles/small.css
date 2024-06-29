@@ -68,11 +68,16 @@ nav.li ul li {
     font-size: 2rem;
     background: none;
     border: none;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     width: 100%;
-    text-align: top;
+    text-align: right;
     padding: .25rem 2vw;
+    /*position of the humburguer*/
+    position: absolute;
+    top: 200px;
+    right: 459px;
+
 }
 ul.primaryNav li a{
    
@@ -89,10 +94,6 @@ li.contener1 a{
     content: "\2630";
 }
 
-#myButton.open::before{
-    content: "x";
-
-}
 
 ul.primaryNav.open{
     display: block;
@@ -100,9 +101,31 @@ ul.primaryNav.open{
 
 /* serve para desaparecer o menu*/
 ul.primaryNav {
-    display: none;
+   
     list-style-type: none; /* effects large*/
 }
+
+/*css for the opoen class*/
+
+
+#myButton.open::before{
+    content: "x";
+
+}
+
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul{ overflow: hidden;}
+
+nav.open{
+    grid-template-rows: 1fr;
+}
+    
+
 
     .footer {
         grid-template-columns: 1fr 1fr;

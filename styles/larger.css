@@ -52,6 +52,7 @@
     #myButton{
         display: none;
     }
+    nav{grid-template-rows: 1fr;}
 
     ul.menulinks, ul.menuLinks.open{
         display: flex;

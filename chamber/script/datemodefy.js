@@ -29,7 +29,7 @@ let daynames = [
   
   let fulldate = dayName +  " " + monthName + " " + d.getDate() + ", " + d.getFullYear();
   
-  document.getElementById("currentDate").textContent = "Last Updated: " + fulldate;
+  //document.getElementById("currentDate").textContent = "Last Updated: " + fulldate;//
   
   try { 
       let options = {

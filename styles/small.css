@@ -98,6 +98,26 @@ nav.open{
     grid-template-rows: 1fr;
 }
 
+  /* dark position mode*/
+  #darkModeButton{
+    width: 50px;
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+main.dark{
+background-color: black;
+}
+
+main.dark h1{
+color: white;
+
+}
+
 
 /*
 nav a {

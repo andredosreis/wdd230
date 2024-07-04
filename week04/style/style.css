@@ -1,0 +1,58 @@
+:root{
+    --back: hsla(147, 50%,  47%);
+    --back2: hsl(120, 16%, 50%);
+    --border: rgb(66, 52, 52);
+    --forelight: hsla(0,0%,100%,1);
+    --borderlight:hsla(0,0,33%);
+    --shadow: hsla(0,0%,55%);
+    --zebra: hsla(0, 0%, 93%, 0.952);
+}
+
+table{
+    margin: auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 7px var(--shadow);
+    border-collapse: collapse;
+   
+
+}
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
+
+thead th{
+    border: 1px solid black;
+}
+tr:first-child th{
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+td{
+    padding: 7px 15px;
+    border: 1px solid var(--border)
+}
+th{
+    background-color: var(--back2);
+    font-size: large;
+   
+    
+}
+th{
+    border: 3px solid var(--borderlight);
+	padding: 7px 15px;
+	
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    
+    background-color: var(--shadow);
+}

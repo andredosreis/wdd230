@@ -37,7 +37,7 @@ body {
   
   /* HEADER */
 header {
-    background-color: #14213d;
+    background-color: var(--color_header);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
@@ -70,7 +70,7 @@ header {
   }
   
   nav a {
-    color: white;
+    color: var(--nav);
     text-decoration: none;
     font-size: 1.5rem;
     text-align: center;
@@ -82,7 +82,7 @@ header {
   }
   
   nav li a:hover {
-    color: red;
+    color: var(--holder);
   }
   
   .date {

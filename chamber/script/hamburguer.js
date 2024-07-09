@@ -6,4 +6,3 @@ humburgerElement.addEventListener('click', () => {
     humburgerElement.classList.toggle('open');
 });
 
-

@@ -19,7 +19,7 @@
         <nav class="animateme">
             <button id="mybutto"></button>
             <ul class="primaryNav">
-                <li class="contener1"><a href="discover.html">Dicover</a></li>
+                <li class="contener1"><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -55,13 +55,14 @@
                     <label for="phone"> Phone Number <input type="tel" name="phone" id="phone" pattern="[1-9]{6,}" placeholder="+()9999-9999 " title="Only number"> </label>
                     <!-- Campo oculto para a data e hora -->
                     <input type="hidden" name="timestamp" id="timestamp">
+                    <label for="bname">Business Name <input type="text" name="bname" id="bname"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend> Business Type and Position</legend>
-                    <label for="bname">Business Name <input type="text" name="bname" id="bname"></label>
+                    
                     <label for="bptitle"> Business Position Title </label>
-                    <input type="text" name="bptitle" id="bptitle">
+                    <input type="text" name="bptitle" id="bptitle" pattern="^[A-Za-z\s-]{7,}$" title="Title must be at least 7 characters long and can only contain letters, hyphens, and spaces." required>
                     <label for="Bdescription"> Business Description</label>
                     <textarea name="textarea" id="Bdescription" placeholder="Descriptions what do you want? "></textarea>
                 </fieldset>

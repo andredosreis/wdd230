@@ -1,0 +1,29 @@
+{
+    "familyName": " Familia reis",
+    "dateFamilymoved": "2024-10-02",
+    "numberPeopleFamily": 3,
+    "visitBichopc": true,
+    "indvidualFamilyMember":
+    [
+        { "name:" : "Arthur",
+        "gender:" : "Male",
+        "Birthdate" :" 2010-03-19"},
+        {
+            "name": "Caio",
+            "gender" : "male",
+            "Birthdate" :" 2012-10-11"
+        },
+        {
+            "name" : "Andre",
+            "gender":"male",
+            "Birthdate": "1984-05-24"
+        }
+
+       
+
+    ]
+   
+
+    
+
+}

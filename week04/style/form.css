@@ -72,7 +72,7 @@ nav ul li a:hover {
 .wf1 input[type="text"],
 .wf1 input[type="email"],
 .wf1 input[type="password"],
-.wf1 input[type="hidden"] {
+.wf1 input[type="range"] {
     background-color: var(--color-geral);
     display: block;
     border: solid 1px var(--border);

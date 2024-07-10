@@ -15,7 +15,7 @@
             <h2>Designing Web Forms</h2>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/home/andredosreis/Documentos/Estudos/ano 2024/BYU/wdd230/index.html">Home</a></li>
                     <li><a href="form.html">Form</a></li>
                 </ul>
             </nav>
@@ -57,31 +57,33 @@
                 <input type="submit" value="Create your Account">
             </form>
         </main>
-        <footer></footer>
-        <script src="script/form.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const stars = document.querySelectorAll('.star');
-                const ratingInput = document.getElementById('rating');
-
-                stars.forEach(star => {
-                    star.addEventListener('click', function() {
-                        const value = this.dataset.value;
-                        ratingInput.value = value;
-                        stars.forEach(s => s.classList.remove('selected'));
-                        for (let i = 0; i < value; i++) {
-                            stars[i].classList.add('selected');
-                        }
-                    });
-                });
-
-                // Initialize stars on load
-                const initialRating = ratingInput.value;
-                for (let i = 0; i < initialRating; i++) {
-                    stars[i].classList.add('selected');
-                }
-            });
-        </script>
+        <footer>
+            <p>&copy; 2024 André dos Reis | BYU-Idaho | WDD 230</p>
+        </footer>
     </div>
+    <script src="script/form.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const stars = document.querySelectorAll('.star');
+            const ratingInput = document.getElementById('rating');
+
+            stars.forEach(star => {
+                star.addEventListener('click', function() {
+                    const value = this.dataset.value;
+                    ratingInput.value = value;
+                    stars.forEach(s => s.classList.remove('selected'));
+                    for (let i = 0; i < value; i++) {
+                        stars[i].classList.add('selected');
+                    }
+                });
+            });
+
+            // Initialize stars on load
+            const initialRating = ratingInput.value;
+            for (let i = 0; i < initialRating; i++) {
+                stars[i].classList.add('selected');
+            }
+        });
+    </script>
 </body>
 </html>

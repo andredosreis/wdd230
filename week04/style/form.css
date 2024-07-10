@@ -18,6 +18,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: var(--color-geral);
+    margin: 0;
 }
 
 .container {
@@ -71,8 +72,7 @@ nav ul li a:hover {
 
 .wf1 input[type="text"],
 .wf1 input[type="email"],
-.wf1 input[type="password"],
-.wf1 input[type="range"] {
+.wf1 input[type="password"] {
     background-color: var(--color-geral);
     display: block;
     border: solid 1px var(--border);
@@ -127,4 +127,11 @@ nav ul li a:hover {
 
 .star.selected {
     color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: var(--label);
 }

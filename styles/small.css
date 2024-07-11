@@ -128,7 +128,14 @@ nav a {
     text-decoration: none;
 }
 */
-
+/*hero image section*/
+.hero picture{
+    width: 100%;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
 
 image {
     align-items: center;

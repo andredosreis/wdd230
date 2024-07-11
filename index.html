@@ -3,85 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development course website">
+    <meta name="author" content="André dos Reis">
+    <title>WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-
-    
-    <title>WDD 230</title>
 </head>
 <body>
-   <header class="content">
-   <img src="image/dark-theme-svgrepo-com.svg" alt=" dark mode" id="darkModeButton">
-    <img src="image/andre.png" alt="andre" width="80" height="100">
-    <h2>Andre dos Reis</h2>
-    
-    
-   </header>
-   <nav id="animateme">
-    <button id="myButton"></button>
-
-    <ul class="menuLinks">
-        <li class="corrent-menu-item "><a href="#">Home</a></li>
-        <li><a href="chamber/index.html">Chamber</a> </li>
-        <li><a href="#">Site Plan</a></li>
-        <li><a href="#">Form</a></li>
-    </ul>
-   </nav>
-
-
-   <main class="dark">
-    <div class="hero">
-        <picture>
-
-        <source srcset="image/Lisbon-hero-small.webp" media="(max-width:500px)">
-        <source srcset="image/Lisbon-hero-medium.webp" media="(max-width:1000px)">
-        <img src="image/Lisbon-hero-lage.webp" alt="hero photo" loading="lazy" width="500" height="250">
-        <span> Lisbon Temple</span>
-       
-    </picture>
-    </div>
-   
-    <h1> WDD 230:  Web Frontend Development</h1>
- <hr>
- <div class="parent">
-    <section class="section1">
-        <h2>
-            Learn Activites
-        </h2>
-        <ul>
-            <li> Week 01: <a href="week01/siteplan/chamber-site-plan.html"> Layout | Media Query | JS Pen</a></li>
-            <li>Week 02: <a href="week02/design.html">Web Desing Principles | </a> <a href="https://codepen.io/andredosreis/pen/jOoKraB">Response "Hamburguer" Menu</a> <a href="week02/bom.html">Book of Mormon- top 10</a></li>
-            <li>Week 03: <a href="week03/images/landscape.webp">Webp |</a> <a href="week03/lazyload.html"> Lazy Load</a></li>
-            <li>Week 04: <a href="week04/tablebuild.html"> Tablebuild |</a> <a href="https://codepen.io/andredosreis/pen/WNBVMNM">Pseudo-class |</a> <a href="week04/form.htm">Forms</a></li>
-            
-            <li>Week 05: <a href="week05/"new-ward-members.json"></a> Json</li>
-            <li>Week 06: <a href=""></a></li>
+    <header class="content">
+        <img src="image/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkModeButton">
+        <img src="image/andre.png" alt="andre" width="80" height="100">
+        <h2>Andre dos Reis</h2>
+    </header>
+    <nav id="animateme">
+        <button id="myButton"></button>
+        <ul class="menuLinks">
+            <li class="current-menu-item"><a href="#">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
         </ul>
-    </section>
-    <section class="section2">
-        <h2> Weather</h2>
-        <div class="card">
-            <h2 id="town"></h2>
-            <img id="graphic" src="" alt="">
-            <p id="Description"></p>
-            <p id="temperature"> </p>
-       </div>
-
-       <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-     
-     
-    </section>
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49077.69209831836!2d-8.847158176715096!3d39.75412020500963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22731534c9b2b9%3A0x4daf832739d43c6c!2sLeiria!5e0!3m2!1spt-BR!2spt!4v1720725637070!5m2!1spt-BR!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </main>
+    </nav>
+    <main class="dark">
+        <div class="hero">
+            <picture>
+                <source srcset="image/Lisbon-hero-small.webp" media="(max-width:500px)">
+                <source srcset="image/Lisbon-hero-medium.webp" media="(max-width:1000px)">
+                <img src="image/Lisbon-hero-lage.webp" alt="hero photo" loading="lazy" width="500" height="250">
+            </picture>
+            <span>Lisbon Temple</span>
+        </div>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <hr>
+        <div class="parent">
+            <section class="section1">
+                <h2>Learn Activities</h2>
+                <ul>
+                    <li>Week 01: <a href="week01/siteplan/chamber-site-plan.html">Layout | Media Query | JS Pen</a></li>
+                    <li>Week 02: <a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/andredosreis/pen/jOoKraB">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">Book of Mormon - Top 10</a></li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">Webp</a> | <a href="week03/lazyload.html">Lazy Load</a></li>
+                    <li>Week 04: <a href="week04/tablebuild.html">Tablebuild</a> | <a href="https://codepen.io/andredosreis/pen/WNBVMNM">Pseudo-class</a> | <a href="week04/form.html">Forms</a></li>
+                    <li>Week 05: <a href="week05/new-ward-members.json">Json</a></li>
+                    <li>Week 06: <a href="#"></a></li>
+                </ul>
+            </section>
+            <section class="section2">
+                <h2>Weather</h2>
+                <div class="card">
+                    <h2 id="town"></h2>
+                    <img id="graphic" src="" alt="">
+                    <p id="Description"></p>
+                    <p id="temperature"></p>
+                </div>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+            </section>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49077.69209831836!2d-8.847158176715096!3d39.75412020500963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22731534c9b2b9%3A0x4daf832739d43c6c!2sLeiria!5e0!3m2!1spt-BR!2spt!4v1720725637070!5m2!1spt-BR!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
     <footer>
-        
-        <h3>&copy; 2024 🖥️ André dos Reis 🖥️ Portugal 🇵🇹 </h3> 
-         <span id="currentDate"></span>
+        <h3>&copy; 2024 🖥️ André dos Reis 🖥️ Portugal 🇵🇹</h3>
+        <span id="currentDate"></span>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/humburger.js"></script>

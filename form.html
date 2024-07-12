@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Team</title>
+    <!-- Meta Tags -->
+    <meta name="description" content="Designing web forms with Active Team. Create your account now.">
+    <meta name="author" content="André dos Reis">
+
     <!-- STYLE SHEETS -->
-    <link rel="stylesheet" href="week04/style/normalize.css">
-    <link rel="stylesheet" href="week04/style/form.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <div class="container">
@@ -15,8 +19,8 @@
             <h2>Designing Web Forms</h2>
             <nav>
                 <ul>
-                    <li><a href="form.htm">Home</a></li>
-                    <li><a href="index.html">inical page</a></li>
+                    <li><a href="form.html">Home</a></li>
+                    <li><a href="index.html">Initial Page</a></li>
                 </ul>
             </nav>
         </header>
@@ -53,6 +57,9 @@
                         <span class="star" data-value="10">&#9733;</span>
                     </div>
                     <input type="hidden" id="rating" name="rating" value="1">
+
+                    <!-- Adding Input Type Range -->
+                  
                 </fieldset>
                 <input type="submit" value="Create your Account">
             </form>
@@ -61,7 +68,7 @@
             <p>&copy; 2024 André dos Reis | BYU-Idaho | WDD 230</p>
         </footer>
     </div>
-    <script src="week04/script/form.js"></script>
+    <script src="scripts/form.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const stars = document.querySelectorAll('.star');

@@ -183,7 +183,7 @@ section {
     text-align: center;
     
 }
-
+/*section information*/
 .section2{
     border: solid 1px;
     background-color: #ffc0cb; /* Removida a opacidade para melhorar o contraste */
@@ -191,10 +191,41 @@ section {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    text-align: center;
 
 }
 
+.section2 h3{
+    color: #121c55;
+    margin: .3rem 0;
 
+}
+
+.section2 #description{
+    text-transform: capitalize;
+    color: #121c55;
+    margin: .3rem 0;
+}
+.section2 #temperature{
+    font-size: 2rem;
+    color: #121c55;
+    margin: .3rem 0;
+
+}
+.section2 .label{
+    color:#121c55;
+}
+
+/*finish section information*/
+/*ifreme*/
+
+iframe{
+   width: 100%;
+
+ 
+
+
+}
 .parent ul {
     padding: 10px;
 }
@@ -202,6 +233,8 @@ section {
 .parent p {
     padding: 10px;
 }
+
+
 
 footer {
     background-color: #0e0bd0e1; /* Cor sólida para melhor contraste */

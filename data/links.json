@@ -1,0 +1,69 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/siteplan/chamber-site-plan.html",
+                    "title": "Layout"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/andredosreis/pen/jOoKraB",
+                    "title": "Responsive Hamburger menu"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "Book of Mormon"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Tablebuild"
+                },
+                {
+                    "url": "https://codepen.io/andredosreis/pen/WNBVMNM",
+                    "title": "Pseudo-class"
+                },
+                {
+                    "url": "week04/form.html",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Json"
+                }
+            ]
+        }
+    ]
+}

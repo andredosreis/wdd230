@@ -343,7 +343,7 @@ footer {
     display: flex;
   }
   
-  .visit {
+  .visit1 {
     margin-left: 60px;
     grid-column: 1;
     grid-row: 1;
@@ -373,3 +373,92 @@ footer {
     font-weight: 500;
   }
   
+  /* section discover*/
+  /* CSS Grid layout for main content */
+ 
+/* base.css */
+
+/* Define cores e estilos padrão */
+body {
+ 
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+
+
+.date {
+  color: #fff;
+}
+
+main.disc {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+main.disc > section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section History centralizado */
+.disc-sidebar {
+  flex: 2;
+  text-align: justify;
+}
+
+/* Section Discover à direita */
+.discover-sidebar {
+  flex: 1;
+}
+
+/* Caixa destacada para a seção visit */
+.visit {
+  background: #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Galeria */
+.card-gallery {
+  margin-top: 20px;
+}
+
+.card-gallery h2 {
+  text-align: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.photo-grid figcaption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+

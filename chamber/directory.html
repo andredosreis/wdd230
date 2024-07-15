@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Leiria Chamber of Commerce. Discover what our city has to offer and join our community.">
+    <meta name="author" content="André dos Reis">
+    <link rel="shortcut icon" href="image/wiframe/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Leiria Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"> <img src="image/Leiria__1_-removebg-preview.png" alt="logo "></a>
+        </div>
+        <nav class="animateme">
+            <button id="mybutto"></button>
+            <ul class="primaryNav">
+                <li class="contener1"><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="#"><img src="image/wiframe/facebook.webp" alt="logo face"></a>
+            <a href="#"><img src="image/wiframe/instagram.webp" alt="logo face"></a>
+            <a href="#"><img src="image/wiframe/linkedin.webp" alt="logo face"></a>
+            <a href="#"><img src="image/wiframe/youtube.webp" alt="logo face"></a>
+        </div>
+        <div class="date"></div>
+    </header>
+    
+    <main class="home">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Leiria Chamber</h1>
+                <p>Come discover what our city has to offer!</p>
+                <a href="#services" class="cta-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="principal">
+            <form method="get" action="thankyou.html" class="wf1">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label for="fname"> First Name </label>
+                    <input type="text" name="fname" id="fname" required>
+                    <label for="lname"> Last Name </label>
+                    <input type="text" name="lname" id="lname" required>           
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Please enter a valid email address" required placeholder="someone@gmail.com">
+                    <label for="phone"> Phone Number <input type="tel" name="phone" id="phone" pattern="[0-9 +()-]{6,}" placeholder="+()9999-9999 " title="Only numbers and the characters +, (, ), and - are allowed"> </label>
+                    <!-- Campo oculto para a data e hora -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <label for="bname">Business Name <input type="text" name="bname" id="bname"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Business Type and Position</legend>
+                    
+                    <label for="bptitle"> Business Position Title </label>
+                    <input type="text" name="bptitle" id="bptitle" pattern="^[A-Za-z\s-]{7,}$" title="Title must be at least 7 characters long and can only contain letters, hyphens, and spaces." required>
+                    <label for="Bdescription"> Business Description</label>
+                    <textarea name="textarea" id="Bdescription" placeholder="Descriptions what do you want? "></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Membership Levels</legend>
+                    <div>Audience</div>
+                    <label><input type="radio" name="audience" value="NPMember ">NP Membership(Non-Profit)</label>
+                    <label><input type="radio" name="audience" value="BRMeber">Bronze Membership</label>
+                    <label><input type="radio" name="audience" value="SlMebmber">Silver Membership</label>
+                    <label><input type="radio" name="audience" value="GMeber">Gold Membership</label>
+                </fieldset>
+
+                <input type="submit" value="Join Now">
+            </form>
+
+            <div class="content">
+                <fieldset>
+                    <legend> Membership Benefits</legend>
+                    <h2> Levels</h2>
+                    <h2> NP Membership</h2>
+                    <ul>
+                        <li>It's like Gold Membership but is FREE.</li>
+                        <li>This membership is for non profit organizations only.</li>
+                    </ul>
+
+                    <h2> Bronze Membership </h2>
+                    <ul>
+                        <li>£400 annual fee</li>
+                        <li>Free jackets on every event </li>
+                        <li>Discounts on selected items </li>
+                        <li>Cup noodles with your branding are sold separately.</li>
+                        <li>Ribbon cuttings advertized to newspapers.</li>
+                        <li>Marketing through various channels.</li>
+                    </ul>
+
+                    <h2> Silver Membership</h2>
+                    <ul>
+                        <li>£950 annual fee</li>
+                        <li>Free jackets and pants on every event</li>
+                        <li>More discounts on selected items</li>
+                        <li>Cup noodles with your branding are sold separately.</li>
+                        <li>Ribbon cuttings advertized to newspapers and radios.</li>
+                        <li>To include all benefits of Business Builder as well as…</li>
+                        <li>Marketing through social media and community events</li>
+                    </ul>
+
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li>£3000</li>
+                        <li>Free jackets, pants, and hats on every event</li>
+                        <li>Most discounts on selected items</li>
+                        <li>Cup noodles with your branding is free.</li>
+                        <li>Ribbon cuttings advertized to newspapers and radios and TVs.</li>
+                        <li>Marketing and promote business in all possible ways.</li>
+                    </ul>
+                </fieldset>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="image/Leiria__1_-removebg-preview.png" alt="logo">
+        <section class="visit">
+            <h3>Local:</h3>
+            <p>Rua do Castelsso, 2400-235 Leiria</p>
+            <span>Direction: <a class="link-cast" href="https://goo.gl/maps/KmUEZhbjiCQguq5D6"><img src="image/wiframe/pin_drop_FILL0_wght400_GRAD0_opsz48.png" alt="pin drop"></a></span>
+        </section>
+
+        <section class="info">
+            <h3>More information :</h3>
+            <ul>
+                <li>Site: Câmara Municipal de Leiria</li>
+                <li>Phone Number: 244 839 670</li>
+                <li>Email: castelo@cm-leiria.pt</li>
+            </ul>
+        </section>
+
+        <div class="cp">
+            <p>&copy; 2024 Leiria Chamber of Commerce</p>
+        </div>
+    </footer>
+    <script src="script/datemodefy.js"></script> 
+    <script src="script/hamburguer.js"></script>
+    <!-- Adicionar script para definir o timestamp -->
+    <script>
+        document.getElementById('timestamp').value = new Date().toISOString();
+    </script>
+</body>
+</html>

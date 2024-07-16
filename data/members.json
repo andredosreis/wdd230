@@ -1,0 +1,26 @@
+{
+    "members:"[
+        {
+            "name":" Ergo Visão",
+            "description":"Eye optics",
+            "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
+            "phone":"244 837 837",
+            "email":"geral@ergovisao.pt",
+            "website":"ergovisao.pt",
+            "image":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "membersshipelevel":"Gold"
+
+        },
+        {
+            "name":" Ergo Visão",
+            "description":"Eye optics",
+            "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
+            "phone":"244 837 837",
+            "email":"XXXXXXXXXXXXXXXXXX",
+            "website":"ergovisao.pt",
+            "image":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "membersshipelevel":"Gold"
+
+        },
+    ]
+}

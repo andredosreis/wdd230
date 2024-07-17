@@ -1,26 +1,64 @@
 {
-    "members:"[
+    "members": [
         {
-            "name":" Ergo Visão",
-            "description":"Eye optics",
+            "name": "Ergo Visão",
+            "description": "Eye optics",
             "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
-            "phone":"244 837 837",
-            "email":"geral@ergovisao.pt",
-            "website":"ergovisao.pt",
-            "image":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            "membersshipelevel":"Gold"
-
+            "phone": "244 837 837",
+            "email": "geral@ergovisao.pt",
+            "website": "ergovisao.pt",
+            "image": "",
+            "membershipLevel": "Gold"
         },
         {
-            "name":" Ergo Visão",
-            "description":"Eye optics",
-            "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
-            "phone":"244 837 837",
-            "email":"XXXXXXXXXXXXXXXXXX",
-            "website":"ergovisao.pt",
-            "image":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            "membersshipelevel":"Gold"
-
+            "name": "Pingo Doce",
+            "description": "Super Market",
+            "address": "Av. Marquês de Pombal 2410-152 lote 9",
+            "phone": "244 855 089",
+            "email": "geral@pingodoce.pt",
+            "website": "pingodoce.pt",
+            "image": "",
+            "membershipLevel": "Gold"
         },
+        {
+            "name": "Moo Hamburgueria",
+            "description": "Burger place",
+            "address": "Av. Combatentes da Grande Guerra nº 81, 2400-123 Leiria",
+            "phone": "938 875 354",
+            "email": "geral@moohmaburer.pt",
+            "website": "https://linktr.ee/mooohamburgueria?utm_source=linktree_profile_share&ltsid=62400b56-fe75-4c35-b7c0-5d12014c2531",
+            "image": "",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Mais Brasil",
+            "description": "Super Market",
+            "address": "Rua Álvaro Pires Miranda lote 2 loja c, 2415-370 Leiria",
+            "phone": "244 097 912",
+            "email": "maisbrasilmercado@gmail.com",
+            "website": "https://maisbrasilmercado.com/",
+            "image": "",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Tiffosi",
+            "description": "Clothing Store",
+            "address": "Av. Heróis de Angola 8, 2400-137 Leiria",
+            "phone": "244 101 754",
+            "email": "customer.care@tiffosi.com",
+            "website": "https://www.tiffosi.com/",
+            "image": "",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Zara",
+            "description": "Clothing Store",
+            "address": "R. do Alto Vieiro, 2400-441 Leiria",
+            "phone": "800 805 033",
+            "email": "custumer@zara.com",
+            "website": "zara.pt",
+            "image": "",
+            "membershipLevel": "Bronze"
+        }
     ]
 }

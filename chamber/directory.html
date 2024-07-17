@@ -39,99 +39,19 @@
     </header>
     
     <main class="home">
-        <div class="hero">
-            <div class="hero-content">
-                <h1>Welcome to Leiria Chamber</h1>
-                <p>Come discover what our city has to offer!</p>
-                <a href="#services" class="cta-button">Learn More</a>
-            </div>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
         </div>
+  
+        <hr>
 
-        <div class="principal">
-            <form method="get" action="thankyou.html" class="wf1">
-                <fieldset>
-                    <legend>Applicant Information</legend>
-                    <label for="fname"> First Name </label>
-                    <input type="text" name="fname" id="fname" required>
-                    <label for="lname"> Last Name </label>
-                    <input type="text" name="lname" id="lname" required>           
-                    <label for="email"> Email </label>
-                    <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Please enter a valid email address" required placeholder="someone@gmail.com">
-                    <label for="phone"> Phone Number <input type="tel" name="phone" id="phone" pattern="[0-9 +()-]{6,}" placeholder="+()9999-9999 " title="Only numbers and the characters +, (, ), and - are allowed"> </label>
-                    <!-- Campo oculto para a data e hora -->
-                    <input type="hidden" name="timestamp" id="timestamp">
-                    <label for="bname">Business Name <input type="text" name="bname" id="bname"></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend> Business Type and Position</legend>
-                    
-                    <label for="bptitle"> Business Position Title </label>
-                    <input type="text" name="bptitle" id="bptitle" pattern="^[A-Za-z\s-]{7,}$" title="Title must be at least 7 characters long and can only contain letters, hyphens, and spaces." required>
-                    <label for="Bdescription"> Business Description</label>
-                    <textarea name="textarea" id="Bdescription" placeholder="Descriptions what do you want? "></textarea>
-                </fieldset>
-
-                <fieldset>
-                    <legend> Membership Levels</legend>
-                    <div>Audience</div>
-                    <label><input type="radio" name="audience" value="NPMember ">NP Membership(Non-Profit)</label>
-                    <label><input type="radio" name="audience" value="BRMeber">Bronze Membership</label>
-                    <label><input type="radio" name="audience" value="SlMebmber">Silver Membership</label>
-                    <label><input type="radio" name="audience" value="GMeber">Gold Membership</label>
-                </fieldset>
-
-                <input type="submit" value="Join Now">
-            </form>
-
-            <div class="content">
-                <fieldset>
-                    <legend> Membership Benefits</legend>
-                    <h2> Levels</h2>
-                    <h2> NP Membership</h2>
-                    <ul>
-                        <li>It's like Gold Membership but is FREE.</li>
-                        <li>This membership is for non profit organizations only.</li>
-                    </ul>
-
-                    <h2> Bronze Membership </h2>
-                    <ul>
-                        <li>£400 annual fee</li>
-                        <li>Free jackets on every event </li>
-                        <li>Discounts on selected items </li>
-                        <li>Cup noodles with your branding are sold separately.</li>
-                        <li>Ribbon cuttings advertized to newspapers.</li>
-                        <li>Marketing through various channels.</li>
-                    </ul>
-
-                    <h2> Silver Membership</h2>
-                    <ul>
-                        <li>£950 annual fee</li>
-                        <li>Free jackets and pants on every event</li>
-                        <li>More discounts on selected items</li>
-                        <li>Cup noodles with your branding are sold separately.</li>
-                        <li>Ribbon cuttings advertized to newspapers and radios.</li>
-                        <li>To include all benefits of Business Builder as well as…</li>
-                        <li>Marketing through social media and community events</li>
-                    </ul>
-
-                    <h2>Gold Membership</h2>
-                    <ul>
-                        <li>£3000</li>
-                        <li>Free jackets, pants, and hats on every event</li>
-                        <li>Most discounts on selected items</li>
-                        <li>Cup noodles with your branding is free.</li>
-                        <li>Ribbon cuttings advertized to newspapers and radios and TVs.</li>
-                        <li>Marketing and promote business in all possible ways.</li>
-                    </ul>
-                </fieldset>
-            </div>
-        </div>
+        
     </main>
 
     <footer>
         <img src="image/Leiria__1_-removebg-preview.png" alt="logo">
-        <section class="visit">
+        <section class="visit1">
             <h3>Local:</h3>
             <p>Rua do Castelsso, 2400-235 Leiria</p>
             <span>Direction: <a class="link-cast" href="https://goo.gl/maps/KmUEZhbjiCQguq5D6"><img src="image/wiframe/pin_drop_FILL0_wght400_GRAD0_opsz48.png" alt="pin drop"></a></span>

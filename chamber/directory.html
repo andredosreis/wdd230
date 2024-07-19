@@ -38,14 +38,21 @@
         <div class="date"></div>
     </header>
     
-    <main class="home">
-        <div class="menu">
+    <main>
+        <section>
+            <h1>Directory</h1>
+
+        <div class="listBtns">
+            <!-- Buttons showing list or grid for companies-->
             <button id="grid">⏹️Grid</button>
             <button id="list">📄List</button>
+
+            <!-- All code will meke in JavaSript-->
         </div>
   
-        <hr>
-
+       
+    </section>
+    <div id="companies" class="grid"> </div>
         
     </main>
 
@@ -76,5 +83,6 @@
     <script>
         document.getElementById('timestamp').value = new Date().toISOString();
     </script>
+    <script src="script/disectory.js"></script>
 </body>
 </html>

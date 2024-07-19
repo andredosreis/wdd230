@@ -7,7 +7,7 @@
             "phone": "244 837 837",
             "email": "geral@ergovisao.pt",
             "website": "ergovisao.pt",
-            "logo": "",
+            "logo": "chamber/image/discovery/ergovisão.webp",
             "membershipLevel": "Gold"
         },
         {
@@ -17,7 +17,7 @@
             "phone": "244 855 089",
             "email": "geral@pingodoce.pt",
             "website": "pingodoce.pt",
-            "logo": "",
+            "logo": "chamber/image/discovery/pingo doce supermercado.webp",
             "membershipLevel": "Gold"
         },
         {
@@ -27,7 +27,7 @@
             "phone": "938 875 354",
             "email": "geral@moohmaburer.pt",
             "website": "https://linktr.ee/mooohamburgueria?utm_source=linktree_profile_share&ltsid=62400b56-fe75-4c35-b7c0-5d12014c2531",
-            "logo": "",
+            "logo": "chamber/image/discovery/logo Moo.webp",
             "membershipLevel": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "phone": "244 097 912",
             "email": "maisbrasilmercado@gmail.com",
             "website": "https://maisbrasilmercado.com/",
-            "logo": "",
+            "logo": "chamber/image/discovery/mais brasil .webp",
             "membershipLevel": "Bronze"
         },
         {
@@ -47,7 +47,7 @@
             "phone": "244 101 754",
             "email": "customer.care@tiffosi.com",
             "website": "https://www.tiffosi.com/",
-            "logo": "",
+            "logo": "chamber/image/discovery/tiffosi.webp",
             "membershipLevel": "Silver"
         },
         {
@@ -57,7 +57,7 @@
             "phone": "800 805 033",
             "email": "custumer@zara.com",
             "website": "zara.pt",
-            "logo": "",
+            "logo": "chamber/image/discovery/zara.webp",
             "membershipLevel": "Bronze"
         }
     ]

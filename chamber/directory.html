@@ -41,19 +41,12 @@
     <main>
         <section>
             <h1>Directory</h1>
-
-        <div class="listBtns">
-            <!-- Buttons showing list or grid for companies-->
-            <button id="gridBtn" class="btn">⏹️Grid</button>
-            <button id="listBtn" class="btn active">📄List</button>
-
-            <!-- All code will meke in JavaSript-->
-        </div>
-  
-       
-    </section>
-    <div id="companies" class="grid"> </div>
-        
+            <div class="listBtns">
+                <button id="listBtn" class="btn"><img src="image/discovery/list.svg" alt="List Icon"></button>
+                <button id="gridBtn" class="btn active"><img src="image/discovery/grid.svg" alt="Grid Icon"></button>
+            </div>
+        </section>
+        <div id="companies" class="grid"></div>
     </main>
 
     <footer>
@@ -63,7 +56,6 @@
             <p>Rua do Castelsso, 2400-235 Leiria</p>
             <span>Direction: <a class="link-cast" href="https://goo.gl/maps/KmUEZhbjiCQguq5D6"><img src="image/wiframe/pin_drop_FILL0_wght400_GRAD0_opsz48.png" alt="pin drop"></a></span>
         </section>
-
         <section class="info">
             <h3>More information :</h3>
             <ul>
@@ -72,17 +64,12 @@
                 <li>Email: castelo@cm-leiria.pt</li>
             </ul>
         </section>
-
         <div class="cp">
             <p>&copy; 2024 Leiria Chamber of Commerce</p>
         </div>
     </footer>
     <script src="script/datemodefy.js"></script> 
     <script src="script/hamburguer.js"></script>
-    <!-- Adicionar script para definir o timestamp -->
-    <script>
-        document.getElementById('timestamp').value = new Date().toISOString();
-    </script>
-    <script src="script/disectory.js"></script>
+    <script src="script/discovery.js"></script>
 </body>
 </html>

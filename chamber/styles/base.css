@@ -209,7 +209,7 @@ nav.li {
     border: 1px solid;
 }
 .weather{
-    grid-column: 3/3;
+    grid-column: 3/4;
     border: 1px solid;
 }
 

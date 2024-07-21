@@ -19,7 +19,7 @@
 <body>
     <header>
         <div id="logo">
-            <a href="index.html"> <img src="image/Leiria__1_-removebg-preview.png" alt="logo "></a>
+            <a href="index.html"><img src="image/Leiria__1_-removebg-preview.png" alt="logo"></a>
         </div>
         <nav class="animateme">
             <button id="mybutto"></button>
@@ -37,18 +37,17 @@
         </div>
         <div class="date"></div>
     </header>
-    
-    <main>
-        <section>
-            <h1>Directory</h1>
-            <div class="listBtns">
-                <button id="listBtn" class="btn"><img src="image/discovery/list.svg" alt="List Icon"></button>
-                <button id="gridBtn" class="btn active"><img src="image/discovery/grid.svg" alt="Grid Icon"></button>
-            </div>
-        </section>
-        <div id="companies" class="grid"></div>
+    <main id="indexMain">
+        <h2 class="title">The Directory Page</h2>
+        <div class="menu">
+            <button id="gridBtn" class="btn">⏹️Grid</button>
+            <button id="listBtn" class="btn">📄List</button>
+        </div>
+        <div id="cardmember" class="membersGrid">
+            <!-- Os cartões serão inseridos aqui pelo JavaScript -->
+        </div>
     </main>
-
+    
     <footer>
         <img src="image/Leiria__1_-removebg-preview.png" alt="logo">
         <section class="visit1">
@@ -70,6 +69,6 @@
     </footer>
     <script src="script/datemodefy.js"></script> 
     <script src="script/hamburguer.js"></script>
-    <script src="script/discovery.js"></script>
+    <script src="script/disectory.js"></script>
 </body>
 </html>

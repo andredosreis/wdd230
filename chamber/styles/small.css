@@ -126,6 +126,55 @@ nav.open{
 }
     
 
+/*sectio directory*/
+
+.membersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.membersList {
+    display: block;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 600px) {
+    .membersGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+    }
+
+    .card p {
+        font-size: 1em;
+    }
+}
+
 
     .footer {
         grid-template-columns: 1fr 1fr;

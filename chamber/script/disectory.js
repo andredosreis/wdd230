@@ -1,70 +1,82 @@
-const CompaniesElement = document.querySelector("#companies");
-const memberUrl1 = "data/members.json";
-const gridBtn = document.querySelector("#gridBtn");
-const listBtn = document.querySelector("#listBtn");
+async function carregar() {
+    try {
+        const response = await fetch('data/members.json');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        if (!data.members) {
+            throw new Error('No members found in JSON');
+        }
 
-async function getMembers() {
-    const response = await fetch(memberUrl1);
-    const data = await response.json();
-    displayMembers(data.members);
-}
+        const members = data.members;
+        const memberList = document.querySelector('#cardmember');
+        displayMembers(members, 'grid'); // Inicialmente mostrar em grid
 
-getMembers();
-
-function displayMembers(members) {
-    const activeBtn = document.querySelector(".active");
-
-    CompaniesElement.innerHTML = ''; // Limpar o container antes de adicionar novos elementos
-
-    if (activeBtn.id === "gridBtn") {
-        CompaniesElement.classList.remove("list");
-        CompaniesElement.classList.add("grid");
-
-        members.forEach((member) => {
-            const company = document.createElement("div");
-            company.classList.add("company-card");
-            company.innerHTML = `
-                <div class="company-logo">
-                    <img src="${member.logo}" alt="${member.name}">
-                </div>
-                <div class="company-info">
-                    <h3>${member.name}</h3>
-                    <p>${member.address}</p>
-                    <a href="https://${member.website}">${member.website}</a>
-                    <p>${member.phone}</p>
-                    <p>${member.membershipLevel}</p>
-                </div>
-            `;
-            CompaniesElement.appendChild(company);
+        document.querySelector('#gridBtn').addEventListener('click', () => {
+            displayMembers(members, 'grid');
         });
-    } else {
-        CompaniesElement.classList.remove("grid");
-        CompaniesElement.classList.add("list");
 
-        members.forEach((member) => {
-            const company = document.createElement("section");
-            company.classList.add("company-info");
-            company.innerHTML = `
-                <h3>${member.name}</h3>
-                <p>${member.address}</p>
-                <a href="https://${member.website}">${member.website}</a>
-                <p>${member.phone}</p>
-                <p>${member.membershipLevel}</p>
-            `;
-            CompaniesElement.appendChild(company);
+        document.querySelector('#listBtn').addEventListener('click', () => {
+            displayMembers(members, 'list');
         });
+    } catch (error) {
+        console.error('Error loading JSON:', error);
     }
 }
 
-// Event listener for the buttons
-gridBtn.addEventListener("click", () => {
-    gridBtn.classList.add("active");
-    listBtn.classList.remove("active");
-    displayMembers(data.members); // Call the function to display companies
-});
+function displayMembers(members, view) {
+    const memberList = document.querySelector('#cardmember');
+    memberList.innerHTML = ''; // Limpar lista antes de adicionar novos elementos
 
-listBtn.addEventListener("click", () => {
-    listBtn.classList.add("active");
-    gridBtn.classList.remove("active");
-    displayMembers(data.members); // Call the function to display companies
-});
+    if (view === 'grid') {
+        memberList.classList.add('grid');
+        memberList.classList.remove('list');
+    } else {
+        memberList.classList.add('list');
+        memberList.classList.remove('grid');
+    }
+
+    members.forEach(member => {
+        const card = document.createElement('div');
+        card.classList.add(view === 'grid' ? 'card-grid' : 'card-list');
+
+        const name = document.createElement('h2');
+        name.textContent = member.name;
+
+        const address = document.createElement('p');
+        address.textContent = `Address: ${member.address}`;
+
+        const email = document.createElement('p');
+        email.textContent = `Email: ${member.email}`;
+
+        const website = document.createElement('a');
+        website.href = ` site: ${member.website}`;
+        website.textContent = member.website;
+
+        card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(website);
+        card.appendChild(email);
+
+        if (view === 'grid') {
+            const img = document.createElement('img');
+            img.src = member.logo;
+            img.alt = member.name;
+
+            const phone = document.createElement('p');
+            phone.textContent = `Phone: ${member.phone}`;
+
+            const membershipLevel = document.createElement('p');
+            membershipLevel.textContent = `Membership Level: ${member.membershipLevel}`;
+
+            card.appendChild(img);
+            card.appendChild(phone);
+            card.appendChild(membershipLevel);
+        }
+
+        memberList.appendChild(card);
+    });
+}
+
+carregar();

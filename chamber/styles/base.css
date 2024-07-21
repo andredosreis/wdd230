@@ -324,6 +324,43 @@ nav.li {
     padding: .5rem 2%
 }
 
+/* Directory section*/
+
+.membersGrid.grid .card-grid {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+.membersGrid.list .card-list {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.card-grid, .card-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-grid img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-grid h2, .card-list h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.card-grid p, .card-list p, .card-grid a, .card-list a {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+
 
   /* FOOTER */
 footer {

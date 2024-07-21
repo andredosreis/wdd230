@@ -6,8 +6,8 @@
             "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
             "phone": "244 837 837",
             "email": "geral@ergovisao.pt",
-            "website": "ergovisao.pt",
-            "logo": "chamber/image/discovery/ergovisão.webp",
+            "website": "https://ergovisao.pt",
+            "logo": "image/discovery/ergovisão.webp",
             "membershipLevel": "Gold"
         },
         {
@@ -16,8 +16,8 @@
             "address": "Av. Marquês de Pombal 2410-152 lote 9",
             "phone": "244 855 089",
             "email": "geral@pingodoce.pt",
-            "website": "pingodoce.pt",
-            "logo": "chamber/image/discovery/pingo doce supermercado.webp",
+            "website": "https://pingodoce.pt",
+            "logo": "image/discovery/pingo doce supermercado.webp",
             "membershipLevel": "Gold"
         },
         {
@@ -26,8 +26,8 @@
             "address": "Av. Combatentes da Grande Guerra nº 81, 2400-123 Leiria",
             "phone": "938 875 354",
             "email": "geral@moohmaburer.pt",
-            "website": "https://linktr.ee/mooohamburgueria?utm_source=linktree_profile_share&ltsid=62400b56-fe75-4c35-b7c0-5d12014c2531",
-            "logo": "chamber/image/discovery/logo Moo.webp",
+            "website": "https://encurtador.com.br/2Xz2Z",
+            "logo": "image/discovery/logo Moo.webp",
             "membershipLevel": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "phone": "244 097 912",
             "email": "maisbrasilmercado@gmail.com",
             "website": "https://maisbrasilmercado.com/",
-            "logo": "chamber/image/discovery/mais brasil .webp",
+            "logo": "image/discovery/mais brasil .webp",
             "membershipLevel": "Bronze"
         },
         {
@@ -47,7 +47,7 @@
             "phone": "244 101 754",
             "email": "customer.care@tiffosi.com",
             "website": "https://www.tiffosi.com/",
-            "logo": "chamber/image/discovery/tiffosi.webp",
+            "logo": "image/discovery/tiffosi.webp",
             "membershipLevel": "Silver"
         },
         {
@@ -56,8 +56,8 @@
             "address": "R. do Alto Vieiro, 2400-441 Leiria",
             "phone": "800 805 033",
             "email": "custumer@zara.com",
-            "website": "zara.pt",
-            "logo": "chamber/image/discovery/zara.webp",
+            "website": "https://zara.pt",
+            "logo": "image/discovery/zara.webp",
             "membershipLevel": "Bronze"
         }
     ]

@@ -59,6 +59,17 @@
             "website": "https://zara.pt",
             "logo": "image/discovery/zara.webp",
             "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Sport Zone",
+            "description": "Clothing Store",
+            "address": "Shopping, R. do Alto Vieiro, 2403-002 Leiria",
+            "phone": "930 580 621",
+            "email": "cliente@sportzone.pt",
+            "website": "https://sprintersports.com/pt",
+            "logo": "image/discovery/sport-zone.webp",
+            "membershipLevel": "Silver"
         }
+
     ]
 }

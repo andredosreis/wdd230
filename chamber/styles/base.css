@@ -64,31 +64,32 @@ header {
   }
 
   /* banner*/
+  #banner {
+    display: none; /* Inicialmente oculto */
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    z-index: 1000;
+    position: relative;
+}
+
+#meeting-message {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#close-banner {
+    margin-left: 15px; /* Espaço entre o texto e o botão */
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
   
-
-.banner {
-  display: none; /* Inicialmente oculto */
-  position: relative;
-  background-color: #f1c40f;
-  color: #000;
-  padding: 15px;
-  text-align: center;
-  font-size: 1.2em;
-}
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-
-.banner-text {
-  margin-top: 10px;
-}
   
   nav {
     margin: auto;

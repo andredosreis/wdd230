@@ -238,8 +238,44 @@ nav.li {
 }
 .weather{
     grid-column: 3/4;
-    border: 1px solid;
+    
+
 }
+/*section weather*/
+.section2{
+  border: solid 1px;
+  background-color: white; /* Removida a opacidade para melhorar o contraste */
+  box-shadow: 0.5px 2px 3px rgb(77, 70, 70);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+  text-align: center;
+
+}
+
+.section2 h3{
+  color: #121c55;
+  margin: .3rem 0;
+
+}
+
+.section2 #description{
+  text-transform: capitalize;
+  color: #121c55;
+  margin: .3rem 0;
+}
+.section2 #temperature{
+  font-size: 2rem;
+  color: #121c55;
+  margin: .3rem 0;
+
+}
+.section2 .label{
+  color:#121c55;
+}
+
+
+/* end section weather*/
 
 .call{
     border: 1px solid;

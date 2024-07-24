@@ -1,0 +1,45 @@
+{
+    "members": [
+        {
+            "name": "Ergo Visão",
+            "description": "Eye optics",
+            "address": "Av. Heróis de Angola 74, 2400-153 Leiria",
+            "phone": "244 837 837",
+            "email": "geral@ergovisao.pt",
+            "website": "https://ergovisao.pt",
+            "logo": "image/discovery/ergovisão.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Moo Hamburgueria",
+            "description": "Burger place",
+            "address": "Av. Combatentes da Grande Guerra nº 81, 2400-123 Leiria",
+            "phone": "938 875 354",
+            "email": "geral@moohmaburer.pt",
+            "website": "https://encurtador.com.br/2Xz2Z",
+            "logo": "image/discovery/logo Moo.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Mais Brasil",
+            "description": "Super Market",
+            "address": "Rua Álvaro Pires Miranda lote 2 loja c, 2415-370 Leiria",
+            "phone": "244 097 912",
+            "email": "maisbrasilmercado@gmail.com",
+            "website": "https://maisbrasilmercado.com/",
+            "logo": "image/discovery/mais brasil .webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Tiffosi",
+            "description": "Clothing Store",
+            "address": "Av. Heróis de Angola 8, 2400-137 Leiria",
+            "phone": "244 101 754",
+            "email": "customer.care@tiffosi.com",
+            "website": "https://www.tiffosi.com/",
+            "logo": "image/discovery/tiffosi.webp",
+            "membershipLevel": "Silver"
+        }
+    
+    ]
+}

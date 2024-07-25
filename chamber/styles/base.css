@@ -250,7 +250,7 @@ nav.li {
 }
 
 .event-details {
-  text-align: center; /* Centraliza o conteúdo */
+ margin-top: 5px;
 }
 
 .evants h3 {
@@ -270,7 +270,7 @@ nav.li {
 
 .event-image {
   display: block;
-  margin: 1rem auto 0 auto; /* Centraliza a imagem e adiciona margem superior */
+  margin: .1rem ; /* Centraliza a imagem e adiciona margem superior */
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
   width: 200px;
   height: auto; /* Mantém a proporção da imagem */
@@ -609,15 +609,6 @@ footer {
 /* base.css */
 
 /* Define cores e estilos padrão */
-body {
- 
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-
-
 
 .date {
   color: #fff;
@@ -628,6 +619,7 @@ main.disc {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 main.disc > section {
@@ -635,6 +627,8 @@ main.disc > section {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+  margin: 10px;
 }
 
 /* Section History centralizado */
@@ -692,3 +686,74 @@ main.disc > section {
   color: #555;
 }
 
+/* Ajustes responsivos */
+@media (max-width: 1200px) {
+  main.disc {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  main.disc > section {
+    padding: 15px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  main.disc {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  main.disc > section {
+    padding: 15px;
+    margin-bottom: 20px;
+    flex: 1 1 100%;
+  }
+
+  .disc-sidebar, .discover-sidebar {
+    flex: 1;
+    text-align: justify;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  main.disc {
+    padding: 5px;
+    gap: 10px;
+  }
+
+  main.disc > section {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .visit {
+    padding: 10px;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 5px;
+  }
+
+  .photo-grid img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .photo-grid img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .photo-grid figcaption {
+    font-size: 0.8em;
+    margin-top: 3px;
+  }
+}

@@ -231,11 +231,53 @@ nav.li {
     margin: 10px;
 }
 
-.events{
-    grid-column: 1/3;
-    grid-row: 1;
-    height: 10rem;
-    border: 1px solid;
+.evants {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  border: 2px solid #ccc; /* Bordas mais espessas e com cor cinza clara */
+  border-radius: 10px; /* Bordas arredondadas */
+  align-items: center; /* Centraliza verticalmente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+  transition: box-shadow 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito de hover */
+  background-color: #fff; /* Fundo branco para melhor contraste */
+  margin-top: 15px;
+  padding: 1rem; /* Adiciona um padding para dar espaço interno */
+}
+
+.evants h2 {
+  text-align: center;
+  margin: 0 0 1rem 0; /* Adiciona margem inferior */
+}
+
+.event-details {
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+.evants h3 {
+  text-align: left;
+  margin: 0; /* Remove a margem padrão */
+}
+
+.event-location {
+  display: inline-block;
+  text-align: left;
+}
+
+.event-location h4 {
+  display: inline;
+  margin-right: 5px;
+}
+
+.event-image {
+  display: block;
+  margin: 1rem auto 0 auto; /* Centraliza a imagem e adiciona margem superior */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  width: 200px;
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.evants:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de sombra mais intensa ao passar o mouse */
 }
 .weather{
     grid-column: 3/4;
@@ -252,9 +294,9 @@ nav.li {
 
 .section2 {
   border: solid 1px;
-  background-color: white;
-  box-shadow: 0.5px 2px 3px rgb(77, 70, 70);
+  border: 2px solid #ccc; /* Bordas mais espessas e com cor cinza clara */
   border-radius: 10px;
+
   overflow: hidden;
   text-align: center;
 }
@@ -297,6 +339,8 @@ nav.li {
 .call{
     
     grid-column: 1/4;
+    border: 2px solid #ccc; /* Bordas mais espessas e com cor cinza clara */
+    border-radius: 10px;
     
    
 }

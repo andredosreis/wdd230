@@ -191,9 +191,7 @@ nav.open {
         flex: 1;
         text-align: justify;
       }
-}
-
-
+      
     .footer {
         grid-template-columns: 1fr 1fr;
     }
@@ -210,28 +208,8 @@ nav.open {
     
     }
 
-    .membersGrid1 {
-        flex-direction: column;
-        align-items: center;
-      }
+
     
-      .card {
-        width: 100%; /* Largura 100% em telas pequenas */
-      }
-    
-      .card img {
-        width: 80px; /* Ajusta a largura da imagem em telas pequenas */
-        height: 80px; /* Ajusta a altura da imagem em telas pequenas */
-      }
-    
-      .card h2 {
-        font-size: 1em; /* Tamanho da fonte do título em telas pequenas */
-      }
-    
-      .card p, .card a {
-        font-size: 0.9em; /* Tamanho da fonte do parágrafo e link em telas pequenas */
-      }
-    
-    
-    }
-    
+}
+
+
